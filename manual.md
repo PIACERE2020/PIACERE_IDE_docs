@@ -206,3 +206,16 @@ You need to fill the username and password to use it.
 
 ![run10](img/runtime/runtime10.png)
 
+### Graphic representation
+
+A graphical editor has been implemented that allows the visualization of a subset of the entities that make up the infrastructure layer of the DOML. 
+
+![GR1](img/greditor/PIACERE5.png)
+![GR4](img/greditor/PIACERE7.png)
+![GR3](img/greditor/PIACERE6.png)
+![GR2](img/greditor/IACERE5.png)
+
+Once we have created the aird model, we obtain the following graphical representation
+
+![GR5](img/greditor/PIACERE8.png)
+
