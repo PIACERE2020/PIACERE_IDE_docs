@@ -13,17 +13,16 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-#import sphinx_rtd_theme
-import sphinx
+
 
 # -- Project information -----------------------------------------------------
 
-project = 'Piacere IDE'
-copyright = '2022, Prodevelop'
-author = 'Prodevelop'
+project = 'PIACERE_IDE_docs'
+copyright = '2023, EVM'
+author = 'EVM'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = '1.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -32,8 +31,6 @@ release = '1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-	'myst_parser',
-	'sphinx_rtd_theme',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -47,14 +44,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 
-html_sidebars = {
-}
-
-
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
