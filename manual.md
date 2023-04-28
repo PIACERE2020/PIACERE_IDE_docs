@@ -216,7 +216,7 @@ A graphical editor has been implemented that allows the visualization of a subse
 Then select your DOMLX file source.
 ![GR3](img/greditor/PIACERE_GR2.png)
 
-And enter/select the parent foldler.
+And enter/select the parent folder.
 ![GR4](img/greditor/PIACERE_GR3.png)
 
 An .aird file will appear in the workspace; double-click on it and the following window will appear
@@ -232,5 +232,5 @@ And typing a name for the new graphical representation
 ![GR8](img/greditor/PIACERE_GR7.png)
 
 Finally, we obtain the following view of the infrastructure layer
-![GR5](img/greditor/PIACERE8.png)
+![GR9](img/greditor/PIACERE8.png)
 
