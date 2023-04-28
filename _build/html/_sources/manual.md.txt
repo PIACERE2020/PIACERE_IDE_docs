@@ -211,26 +211,36 @@ You need to fill the username and password to use it.
 A graphical editor has been implemented that allows the visualization of a subset of the entities that make up the infrastructure layer of the DOMLX. To use this tool right click on a doml file -> New -> Representations File:
 
 ![GR1](img/greditor/PIACERE_GR0.png)
+
+This new window appears:
+
 ![GR2](img/greditor/PIACERE_GR1.png)
 
 Then select your DOMLX file source.
+
 ![GR3](img/greditor/PIACERE_GR2.png)
 
 And enter/select the parent folder.
+
 ![GR4](img/greditor/PIACERE_GR3.png)
 
 An .aird file will appear in the workspace; double-click on it and the following window will appear
+
 ![GR5](img/greditor/PIACERE_GR4.png)
 
 In this window we have to add the DOML file to the project dependencies and a new file will appear in the representations column.
+
 ![GR6](img/greditor/PIACERE_GR5.png)
 
 Then, we need to enable it selecting the abstactInfra Layer.
+
 ![GR7](img/greditor/PIACERE_GR6.png)
 
-And typing a name for the new graphical representation
+And typing a name for the new graphical representation.
+
 ![GR8](img/greditor/PIACERE_GR7.png)
 
-Finally, we obtain the following view of the infrastructure layer
+Finally, we obtain the following view of the infrastructure layer.
+
 ![GR9](img/greditor/PIACERE8.png)
 

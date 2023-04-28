@@ -13,13 +13,13 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'PIACERE_IDE_docs'
-copyright = '2023, EVM'
-author = 'EVM'
+project = 'User_Manual_IDE'
+copyright = '2023, Prodevelop'
+author = 'Prodevelop'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
@@ -31,7 +31,7 @@ release = '1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'myst_parser',
+	'myst_parser',
 	'sphinx_rtd_theme',
 ]
 
@@ -45,9 +45,11 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
 # -- Options for HTML output -------------------------------------------------
+
 html_sidebars = {
 }
-    
+
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
