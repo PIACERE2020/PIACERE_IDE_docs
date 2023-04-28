@@ -38,6 +38,8 @@ When creating a new project, two new files appear: firstly, the .doml file where
 
 ![newpro_files](img/jsonconfig.png)
 
+![deploymentconfig](img/deploymentConfig.png)
+
 ## IDE usage
 
 ### Model files

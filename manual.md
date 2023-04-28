@@ -36,7 +36,9 @@ If you open the PIACERE view, you can create a PIACERE project by clicking in th
 
 When creating a new project, two new files appear: firstly, the .doml file where the code will be added; and secondly, a deploymentConfig.json file, which will be used to enter the keys of the different providers.
 
-![newpro_files](img/deploymentConfig.png)
+![newpro_files](img/jsonconfig.png)
+
+![deploymentconfig](img/deploymentConfig.png)
 
 ## IDE usage
 
