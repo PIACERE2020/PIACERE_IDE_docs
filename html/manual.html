@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>User Manual &mdash; Piacere IDE 1.0 documentation</title>
+  <title>User Manual &mdash; PIACERE_IDE_docs 1.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -16,12 +16,9 @@
         <script src="_static/underscore.js"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
-        <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Download" href="download.html" />
-    <link rel="prev" title="Piacere IDE Implmementation" href="implementation.html" /> 
+    <link rel="search" title="Search" href="search.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -29,7 +26,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="index.html" class="icon icon-home"> Piacere IDE
+            <a href="index.html" class="icon icon-home"> PIACERE_IDE_docs
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -39,36 +36,34 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Index</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="implementation.html">Piacere IDE Implementation</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">User Manual</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#requeriments">Requeriments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#first-look-and-set-up">First look and Set Up</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#ide-usage">IDE usage</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#model-files">Model files</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#optimization-kr9">Optimization (KR9)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#validation-kr5">Validation (KR5)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#code-generator-kr3">Code Generator (KR3)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#security-scan-kr6-kr7">Security scan (KR6 &amp; KR7)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#canary-sandbox-environment-kr8">Canary Sandbox Environment (KR8)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#infrastructure-elements-catalogue">Infrastructure Elements Catalogue</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#runtime-controller-kr11-kr12">Runtime Controller (KR11 &amp; KR12)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#graphic-representation">Graphic representation</a></li>
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">User Manual</a><ul>
+<li><a class="reference internal" href="#requeriments">Requeriments</a></li>
+<li><a class="reference internal" href="#first-look-and-set-up">First look and Set Up</a></li>
+<li><a class="reference internal" href="#ide-usage">IDE usage</a><ul>
+<li><a class="reference internal" href="#model-files">Model files</a></li>
+<li><a class="reference internal" href="#optimization-kr9">Optimization (KR9)</a></li>
+<li><a class="reference internal" href="#validation-kr5">Validation (KR5)</a></li>
+<li><a class="reference internal" href="#code-generator-kr3">Code Generator (KR3)</a></li>
+<li><a class="reference internal" href="#security-scan-kr6-kr7">Security scan (KR6 &amp; KR7)</a></li>
+<li><a class="reference internal" href="#canary-sandbox-environment-kr8">Canary Sandbox Environment (KR8)</a></li>
+<li><a class="reference internal" href="#infrastructure-elements-catalogue">Infrastructure Elements Catalogue</a></li>
+<li><a class="reference internal" href="#runtime-controller-kr11-kr12">Runtime Controller (KR11 &amp; KR12)</a></li>
+<li><a class="reference internal" href="#graphic-representation">Graphic representation</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="download.html">Download IDE</a></li>
 </ul>
-
+</div>
         </div>
       </div>
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Piacere IDE</a>
+          <a href="index.html">PIACERE_IDE_docs</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -216,13 +211,23 @@ The sequence to make doml or domlx conversion is:</p>
 </section>
 <section id="graphic-representation">
 <h3>Graphic representation<a class="headerlink" href="#graphic-representation" title="Permalink to this heading"></a></h3>
-<p>A graphical editor has been implemented that allows the visualization of a subset of the entities that make up the infrastructure layer of the DOML.</p>
-<p><img alt="GR1" src="_images/PIACERE5.png" />
-<img alt="GR4" src="_images/PIACERE7.png" />
-<img alt="GR3" src="_images/PIACERE6.png" />
-<img alt="GR2" src="_images/IACERE5.png" /></p>
-<p>Once we have created the aird model, we obtain the following graphical representation</p>
-<p><img alt="GR5" src="_images/PIACERE8.png" /></p>
+<p>A graphical editor has been implemented that allows the visualization of a subset of the entities that make up the infrastructure layer of the DOMLX. To use this tool right click on a doml file -&gt; New -&gt; Representations File:</p>
+<p><img alt="GR1" src="_images/PIACERE_GR0.png" />
+<img alt="GR2" src="_images/PIACERE_GR1.png" /></p>
+<p>Then select your DOMLX file source.
+<img alt="GR3" src="_images/PIACERE_GR2.png" /></p>
+<p>And enter/select the parent folder.
+<img alt="GR4" src="_images/PIACERE_GR3.png" /></p>
+<p>An .aird file will appear in the workspace; double-click on it and the following window will appear
+<img alt="GR5" src="_images/PIACERE_GR4.png" /></p>
+<p>In this window we have to add the DOML file to the project dependencies and a new file will appear in the representations column.
+<img alt="GR6" src="_images/PIACERE_GR5.png" /></p>
+<p>Then, we need to enable it selecting the abstactInfra Layer.
+<img alt="GR7" src="_images/PIACERE_GR6.png" /></p>
+<p>And typing a name for the new graphical representation
+<img alt="GR8" src="_images/PIACERE_GR7.png" /></p>
+<p>Finally, we obtain the following view of the infrastructure layer
+<img alt="GR9" src="_images/PIACERE8.png" /></p>
 </section>
 </section>
 </section>
@@ -230,15 +235,12 @@ The sequence to make doml or domlx conversion is:</p>
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="implementation.html" class="btn btn-neutral float-left" title="Piacere IDE Implmementation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="download.html" class="btn btn-neutral float-right" title="Download" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
+          <footer>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2022, Prodevelop.</p>
+    <p>&#169; Copyright 2023, EVM.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
