@@ -231,6 +231,6 @@ Then, we need to enable it selecting the abstactInfra Layer.
 And typing a name for the new graphical representation
 ![GR8](img/greditor/PIACERE_GR7.png)
 
-Finally, we obtain the following graphical representation
+Finally, we obtain the following view of the infrastructure layer
 ![GR5](img/greditor/PIACERE8.png)
 
