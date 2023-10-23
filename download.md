@@ -1,6 +1,6 @@
 # Download
 
-The first version of the PIACERE IDE is hosted in the git repository of PIACERE under the project name “T35 IDE”.
+The PIACERE IDE is hosted in the git repository of PIACERE.
 
 ```{admonition} Download 
 :class: tip
