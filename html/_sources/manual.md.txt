@@ -95,15 +95,15 @@ It is possible save the optimization result on the workspace:
 
 Also, you can validate the DOML It is possible to generate a .dml file if you have a .dmlx file. Click secondary button and select “PIACERE”, “Generate DOML Model”.
 
-![subdomlx](img/Submenu_domlx.png)
+You can choose between Validate model or Validate CSP
 
-When you save the model validation, a new file is generated in the project that contains the result of the validation: satisfactory or unsatisfactory.
+![subdomlx](img/validador1.png)
 
-![sval](img/Save_result_validation.png)
+When you save the model validation, a new file is generated in the project that contains the result of the validation.
 
-![nval](img/Model_validation_nombre.png)
+![valm](img/validador2.png)
 
-![gval](img/Resultado_validacion.png)
+![valcsp](img/validador3.png)
 
 ### Code Generator (KR3)
 
@@ -118,17 +118,21 @@ When the IaC Code Generator finish, appears a new file with tar.gz extension. In
 ![gval](img/tar_file.png)
 
 ### Security scan (KR6 & KR7)
-To this kind of files, you can run a “Perform Security Scan”.
+To this kind of files, you can run a “Perform Security Scan”. To make this action, first of all you need to generate the iac file using the project submenu.
 
-![subzip](img/Submenu_zip.png)
+![subiac](img/Security_scan1.png)
 
-![subzip](img/Security_scan.png)
+![iacname](img/Security_scan2.png)
 
-![subzip](img/scan_success.png)
+After this, you can yuse the iac file to perform the security scan using the iac file submenu.
 
-When the process is finished you can check the scan:
+![subiacf](img/Security_scan3.png)
 
-![subzip](img/scan_result.png)
+![checks](img/Security_scan4.png)
+
+Finally, you got the result as a pop up message.
+
+![checks](img/scan_success.png)
 
 ### Canary Sandbox Environment (KR8)
 
